@@ -51,7 +51,6 @@ Install dependencies:
   ```
 [Watch the demo video](demo.mp4)
 
-
 You’ll be prompted to:
 
 Select a source (ChatGPT, Claude, or Grok)
