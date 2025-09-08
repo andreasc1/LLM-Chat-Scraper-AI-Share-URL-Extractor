@@ -43,7 +43,6 @@ Install dependencies:
   Install Playwright browsers (first-time setup only):
   ```bash
   playwright install
-  Usage
   ```
 ### Run the script:
 
