@@ -49,7 +49,8 @@ Install dependencies:
   ```bash
   python scraper.py
   ```
-[Watch the demo video](assets/demo.mp4)
+[Watch the demo video](demo.mp4)
+
 
 You’ll be prompted to:
 
