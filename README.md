@@ -45,10 +45,9 @@ Install dependencies:
   playwright install
   Usage
   ```
-Run the script:
+### Run the script:
 
   ```bash
-  Copy code
   python scraper.py
   ```
 You’ll be prompted to:
@@ -61,22 +60,20 @@ The script will fetch, scrape, and save results into a text file (e.g. scraped_c
 
 Example
   ```
-Fetching share URLs for ChatGPT...
-✅ Found 103347 URLs for ChatGPT.
-Scrape (A)ll, (R)ange, or (N)umber? R
-Enter range (1-103347): 888-891
+  Fetching share URLs for ChatGPT...
+  ✅ Found 103347 URLs for ChatGPT.
+  Scrape (A)ll, (R)ange, or (N)umber? R
+  Enter range (1-103347): 888-891
 
-🔹 Scraping: https://chatgpt.com/share/714ea0c0-04b4-40e4-8c02-2e0059b4d854
-✅ Scraped successfully.
-
-🔹 Scraping: https://chatgpt.com/share/675489e9-36e8-800e-a8b8-0d4d296a0a6b
-✅ Scraped successfully.
+  🔹 Scraping: https://chatgpt.com/share/714ea0c0-04b4-40e4-8c02-2e0059b4d854
+  ✅ Scraped successfully.
+  
+  🔹 Scraping: https://chatgpt.com/share/675489e9-36e8-800e-a8b8-0d4d296a0a6b
+  ✅ Scraped successfully.
   ```
 The cleaned results are saved in:
   ```
-
-scraped_content.txt
+  scraped_content.txt
   ```
 
 ⭐ If you found this useful, don’t forget to star the repo!
-
