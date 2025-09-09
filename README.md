@@ -19,12 +19,12 @@ Then it uses **Playwright** to open each live page, handle JavaScript-rendered c
 ---
 
 ## Features  
-- 🔎 Fetches share URLs from Web Archive CDX API  
-- 📂 Scrapes **ChatGPT**, **Claude**, and **Grok** share pages  
-- 🧹 Filters out UI/boilerplate text, saving **only clean chat content**  
-- 🎛️ Interactive CLI: scrape **All**, a **Range**, or a **Number** of URLs  
-- 🕵️ Random User-Agents + delays to avoid detection  
-- ⚡ Uses **Playwright** for robust JavaScript rendering  
+ 🔎 Fetches share URLs from Web Archive CDX API  
+ 📂 Scrapes **ChatGPT**, **Claude**, and **Grok** share pages  
+ 🧹 Filters out UI/boilerplate text, saving **only clean chat content**  
+ 🎛️ Interactive CLI: scrape **All**, a **Range**, or a **Number** of URLs  
+ 🕵️ Random User-Agents + delays to avoid detection  
+ ⚡ Uses **Playwright** for robust JavaScript rendering  
 
 ---
 
@@ -35,22 +35,19 @@ Then it uses **Playwright** to open each live page, handle JavaScript-rendered c
    git clone https://github.com/yourusername/live-chat-scraper.git
    cd live-chat-scraper
    ```
-Install dependencies:
-
+2. Install dependencies:
    ```bash
-  pip install -r requirements.txt
-  ```
-  Install Playwright browsers (first-time setup only):
-  ```bash
-  playwright install
-  ```
+   pip install -r requirements.txt
+   ```
+3. Install Playwright browsers (first-time setup only):
+   ```bash
+   playwright install
+   ```
 ### Run the script:
 
-  ```bash
-  python scraper.py
-  ```
-[Watch the demo video](demo.mp4)
-
+   ```bash
+   python scraper.py
+   ```
 You’ll be prompted to:
 
 Select a source (ChatGPT, Claude, or Grok)
@@ -59,22 +56,27 @@ Choose whether to scrape All, a Range, or a Specific number of URLs
 
 The script will fetch, scrape, and save results into a text file (e.g. scraped_content.txt).
 
-Example
-  ```
-  Fetching share URLs for ChatGPT...
-  ✅ Found 103347 URLs for ChatGPT.
-  Scrape (A)ll, (R)ange, or (N)umber? R
-  Enter range (1-103347): 888-891
+### Demo:
+![me](assets/demo.gif)
 
-  🔹 Scraping: https://chatgpt.com/share/714ea0c0-04b4-40e4-8c02-2e0059b4d854
-  ✅ Scraped successfully.
-  
-  🔹 Scraping: https://chatgpt.com/share/675489e9-36e8-800e-a8b8-0d4d296a0a6b
-  ✅ Scraped successfully.
-  ```
+### Example output:
+   ```
+   Fetching share URLs for ChatGPT...
+   ✅ Found 103347 URLs for ChatGPT.
+   Scrape (A)ll, (R)ange, or (N)umber? R
+   Enter range (1-103347): 888-891
+
+    Scraping: https://chatgpt.com/share/714ea0c0-04b4-40e4-8c02-2e0059b4d854
+   ✅ Scraped successfully.
+   
+   🔹 Scraping: https://chatgpt.com/share/675489e9-36e8-800e-a8b8-0d4d296a0a6b
+   ✅ Scraped successfully.
+   ```
+
+### Results output: 
 The cleaned results are saved in:
-  ```
-  scraped_content.txt
-  ```
+   ```
+   scraped_content.txt
+   ```
 
 ⭐ If you found this useful, don’t forget to star the repo!
