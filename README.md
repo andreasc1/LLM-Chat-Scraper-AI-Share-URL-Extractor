@@ -1,4 +1,5 @@
-# Live Chat Scraper – AI Share URL Extractor  
+# LLM Chat Scraper – AI Share URL Extractor
+Identify what people are querying AI for
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)  
 [![Playwright](https://img.shields.io/badge/Playwright-Automation-green)](https://playwright.dev/)  
