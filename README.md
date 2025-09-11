@@ -10,6 +10,7 @@ A Python tool that scrapes chat content from **live share URLs** of **ChatGPT, C
 It first pulls URLs from the **Web Archive CDX API**, then it uses **Playwright** to open each live page, handle JavaScript-rendered content, strip out UI clutter, and save only the **clean chat messages** to a text file.  
 
 ✨ Built for speed, simplicity, and fun – and of course, **vibe coded using AI** 🤖  
+⭐ If you found this useful, don’t forget to star the repo!
 
 ---
 
