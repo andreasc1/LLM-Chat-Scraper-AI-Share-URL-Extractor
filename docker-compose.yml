@@ -1,0 +1,15 @@
+services:
+  scraper:
+    build: .
+    container_name: python-scraper
+    volumes:
+      # Mount current directory to preserve output files
+      - ./output:/app/output
+      # Mount the script for easy development
+      - ./scraper.py:/app/scraper.py:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
+    # Override command if needed, e.g.:
+    # command: ["python", "scraper.py", "--source", "1", "--mode", "number", "--count", "20", "--parallel", "10"]

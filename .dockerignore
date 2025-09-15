@@ -1,0 +1,14 @@
+.git
+.gitignore
+README.md
+assets/
+output/
+*.md
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
